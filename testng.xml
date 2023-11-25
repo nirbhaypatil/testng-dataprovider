@@ -1,0 +1,13 @@
+<suite name="Suite1" verbose="1" >
+
+    <test name="regression">
+        <classes>
+            <parameter name="s" value="Ten"></parameter>
+            <parameter name="in" value="10"></parameter>
+            <parameter name="b" value="true"></parameter>
+            <class name="parameters.A"/>
+            <class name="demo.CTest"/>
+            <class name="demo.D"/>
+        </classes>
+    </test>
+</suite>
